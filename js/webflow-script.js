@@ -1244,12 +1244,12 @@
           $2(brandElement).attr("style", fullScreen ? "display: none !important;" : "");
         }
         function createBadge() {
-          var $brand = $2('<a class="w-webflow-badge"></a>').attr("href", "https://webflow.com?utm_campaign=brandjs");
-          var $logoArt = $2("<img>").attr("src", "../images/webflow-badge-icon-d2.89e12c322e.svg").attr("alt", "").css({
+          var $brand = $2('<a class="w-webflow-badge"></a>').attr("href", "https://transportesnorte.cl/");
+          var $logoArt = $2("<img>").attr("src", "../images/logo-20tn-204x.png").attr("alt", "").css({
             marginRight: "4px",
             width: "26px"
           });
-          var $logoText = $2("<img>").attr("src", "../images/webflow-badge-text-d2.c82cec3b78.svg").attr("alt", "Made in Webflow");
+          var $logoText = $2("<img>").attr("src", "../images/logo-20tn-204x.png").attr("alt", "");
           $brand.append($logoArt, $logoText);
           return $brand[0];
         }
