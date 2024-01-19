@@ -1245,11 +1245,11 @@
         }
         function createBadge() {
           var $brand = $2('<a class="w-webflow-badge"></a>').attr("href", "https://transportesnorte.cl/");
-          var $logoArt = $2("<img>").attr("src", "../images/logo-20tn-204x.png").attr("alt", "").css({
+          var $logoArt = $2("<img>").attr("src", "../images/").attr("alt", "").css({
             marginRight: "4px",
             width: "26px"
           });
-          var $logoText = $2("<img>").attr("src", "../images/logo-20tn-204x.png").attr("alt", "");
+          var $logoText = $2("<img>").attr("src", "../images/").attr("alt", "");
           $brand.append($logoArt, $logoText);
           return $brand[0];
         }
