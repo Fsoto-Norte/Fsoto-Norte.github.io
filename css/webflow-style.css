@@ -14063,3 +14063,12 @@ figcaption {
   font-style: normal;
   font-display: swap;
 }
+.bottom-logo {
+  position: absolute;
+  bottom: 0;
+  margin-left: 50px;
+  margin-top: 200px;
+  margin-bottom: -50px;
+
+
+}
