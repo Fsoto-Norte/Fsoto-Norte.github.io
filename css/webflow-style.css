@@ -14065,10 +14065,6 @@ figcaption {
 }
 .bottom-logo {
   position: absolute;
-  bottom: 0;
-  margin-left: 50px;
-  margin-top: 200px;
-  margin-bottom: -50px;
-
-
+  bottom: -700;
+  left: 30px;
 }
