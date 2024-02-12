@@ -14065,6 +14065,6 @@ figcaption {
 }
 .bottom-logo {
   position: absolute;
-  bottom: -1500;
+  bottom: -100px;
   left: 30px;
 }
