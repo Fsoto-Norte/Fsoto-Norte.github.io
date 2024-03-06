@@ -1,0 +1,8 @@
+[26-Feb-2024 22:22:22 America/Santiago] PHP Notice:  Undefined index: nombre in /home/transpo8/public_html/en/datos.php on line 4
+[26-Feb-2024 22:22:22 America/Santiago] PHP Notice:  Undefined index: telefono in /home/transpo8/public_html/en/datos.php on line 5
+[26-Feb-2024 22:22:22 America/Santiago] PHP Notice:  Undefined index: correo in /home/transpo8/public_html/en/datos.php on line 6
+[26-Feb-2024 22:22:22 America/Santiago] PHP Notice:  Undefined index: descripcion in /home/transpo8/public_html/en/datos.php on line 7
+[26-Feb-2024 22:35:26 America/Santiago] PHP Notice:  Undefined index: nombre in /home/transpo8/public_html/en/datos.php on line 4
+[26-Feb-2024 22:35:26 America/Santiago] PHP Notice:  Undefined index: telefono in /home/transpo8/public_html/en/datos.php on line 5
+[26-Feb-2024 22:35:26 America/Santiago] PHP Notice:  Undefined index: correo in /home/transpo8/public_html/en/datos.php on line 6
+[26-Feb-2024 22:35:26 America/Santiago] PHP Notice:  Undefined index: descripcion in /home/transpo8/public_html/en/datos.php on line 7

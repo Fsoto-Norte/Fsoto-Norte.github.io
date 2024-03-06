@@ -1,0 +1,53 @@
+[31-May-2021 14:45:47 UTC] PHP Parse error:  syntax error, unexpected '', '' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/s18k09no2las/public_html/Mail.php on line 19
+[31-May-2021 14:48:56 UTC] PHP Warning:  A non-numeric value encountered in /home/s18k09no2las/public_html/Mail.php on line 26
+[31-May-2021 14:48:56 UTC] PHP Warning:  A non-numeric value encountered in /home/s18k09no2las/public_html/Mail.php on line 26
+[31-May-2021 14:48:56 UTC] PHP Warning:  A non-numeric value encountered in /home/s18k09no2las/public_html/Mail.php on line 26
+[31-May-2021 14:48:56 UTC] PHP Warning:  A non-numeric value encountered in /home/s18k09no2las/public_html/Mail.php on line 26
+[31-May-2021 14:50:08 UTC] PHP Warning:  A non-numeric value encountered in /home/s18k09no2las/public_html/Mail.php on line 26
+[31-May-2021 14:50:08 UTC] PHP Warning:  A non-numeric value encountered in /home/s18k09no2las/public_html/Mail.php on line 26
+[31-May-2021 14:50:08 UTC] PHP Warning:  A non-numeric value encountered in /home/s18k09no2las/public_html/Mail.php on line 26
+[31-May-2021 14:50:08 UTC] PHP Warning:  A non-numeric value encountered in /home/s18k09no2las/public_html/Mail.php on line 26
+[01-Jul-2021 01:14:16 UTC] PHP Notice:  Undefined index: nombre in /home/s18k09no2las/public_html/datos.php on line 4
+[01-Jul-2021 01:14:16 UTC] PHP Notice:  Undefined index: telefono in /home/s18k09no2las/public_html/datos.php on line 5
+[01-Jul-2021 01:14:16 UTC] PHP Notice:  Undefined index: correo in /home/s18k09no2las/public_html/datos.php on line 6
+[01-Jul-2021 01:14:16 UTC] PHP Notice:  Undefined index: descripcion in /home/s18k09no2las/public_html/datos.php on line 7
+[12-Jul-2021 01:57:59 UTC] PHP Notice:  Undefined index: nombre in /home/s18k09no2las/public_html/datos.php on line 4
+[12-Jul-2021 01:57:59 UTC] PHP Notice:  Undefined index: telefono in /home/s18k09no2las/public_html/datos.php on line 5
+[12-Jul-2021 01:57:59 UTC] PHP Notice:  Undefined index: correo in /home/s18k09no2las/public_html/datos.php on line 6
+[12-Jul-2021 01:57:59 UTC] PHP Notice:  Undefined index: descripcion in /home/s18k09no2las/public_html/datos.php on line 7
+[12-Jul-2021 01:58:07 UTC] PHP Notice:  Undefined index: nombre in /home/s18k09no2las/public_html/datos.php on line 4
+[12-Jul-2021 01:58:07 UTC] PHP Notice:  Undefined index: telefono in /home/s18k09no2las/public_html/datos.php on line 5
+[12-Jul-2021 01:58:07 UTC] PHP Notice:  Undefined index: correo in /home/s18k09no2las/public_html/datos.php on line 6
+[12-Jul-2021 01:58:07 UTC] PHP Notice:  Undefined index: descripcion in /home/s18k09no2las/public_html/datos.php on line 7
+[11-Aug-2021 16:06:44 UTC] PHP Notice:  Undefined index: nombre in /home/s18k09no2las/public_html/datos.php on line 4
+[11-Aug-2021 16:06:44 UTC] PHP Notice:  Undefined index: telefono in /home/s18k09no2las/public_html/datos.php on line 5
+[11-Aug-2021 16:06:44 UTC] PHP Notice:  Undefined index: correo in /home/s18k09no2las/public_html/datos.php on line 6
+[11-Aug-2021 16:06:44 UTC] PHP Notice:  Undefined index: descripcion in /home/s18k09no2las/public_html/datos.php on line 7
+[16-Sep-2021 02:13:03 UTC] PHP Notice:  Undefined index: nombre in /home/s18k09no2las/public_html/datos.php on line 4
+[16-Sep-2021 02:13:03 UTC] PHP Notice:  Undefined index: telefono in /home/s18k09no2las/public_html/datos.php on line 5
+[16-Sep-2021 02:13:03 UTC] PHP Notice:  Undefined index: correo in /home/s18k09no2las/public_html/datos.php on line 6
+[16-Sep-2021 02:13:03 UTC] PHP Notice:  Undefined index: descripcion in /home/s18k09no2las/public_html/datos.php on line 7
+[04-Jun-2022 00:19:32 UTC] PHP Notice:  Undefined index: nombre in /home/s18k09no2las/public_html/datos.php on line 4
+[04-Jun-2022 00:19:32 UTC] PHP Notice:  Undefined index: telefono in /home/s18k09no2las/public_html/datos.php on line 5
+[04-Jun-2022 00:19:32 UTC] PHP Notice:  Undefined index: correo in /home/s18k09no2las/public_html/datos.php on line 6
+[04-Jun-2022 00:19:32 UTC] PHP Notice:  Undefined index: descripcion in /home/s18k09no2las/public_html/datos.php on line 7
+[04-Jun-2022 00:19:32 UTC] PHP Notice:  Undefined index: nombre in /home/s18k09no2las/public_html/datos.php on line 4
+[04-Jun-2022 00:19:32 UTC] PHP Notice:  Undefined index: telefono in /home/s18k09no2las/public_html/datos.php on line 5
+[04-Jun-2022 00:19:32 UTC] PHP Notice:  Undefined index: correo in /home/s18k09no2las/public_html/datos.php on line 6
+[04-Jun-2022 00:19:32 UTC] PHP Notice:  Undefined index: descripcion in /home/s18k09no2las/public_html/datos.php on line 7
+[04-Jun-2022 00:19:33 UTC] PHP Notice:  Undefined index: nombre in /home/s18k09no2las/public_html/datos.php on line 4
+[04-Jun-2022 00:19:33 UTC] PHP Notice:  Undefined index: telefono in /home/s18k09no2las/public_html/datos.php on line 5
+[04-Jun-2022 00:19:33 UTC] PHP Notice:  Undefined index: correo in /home/s18k09no2las/public_html/datos.php on line 6
+[04-Jun-2022 00:19:33 UTC] PHP Notice:  Undefined index: descripcion in /home/s18k09no2las/public_html/datos.php on line 7
+[04-Jun-2022 00:19:33 UTC] PHP Notice:  Undefined index: nombre in /home/s18k09no2las/public_html/datos.php on line 4
+[04-Jun-2022 00:19:33 UTC] PHP Notice:  Undefined index: telefono in /home/s18k09no2las/public_html/datos.php on line 5
+[04-Jun-2022 00:19:33 UTC] PHP Notice:  Undefined index: correo in /home/s18k09no2las/public_html/datos.php on line 6
+[04-Jun-2022 00:19:33 UTC] PHP Notice:  Undefined index: descripcion in /home/s18k09no2las/public_html/datos.php on line 7
+[26-Feb-2024 22:22:17 America/Santiago] PHP Notice:  Undefined index: nombre in /home/transpo8/public_html/datos.php on line 4
+[26-Feb-2024 22:22:17 America/Santiago] PHP Notice:  Undefined index: telefono in /home/transpo8/public_html/datos.php on line 5
+[26-Feb-2024 22:22:17 America/Santiago] PHP Notice:  Undefined index: correo in /home/transpo8/public_html/datos.php on line 6
+[26-Feb-2024 22:22:17 America/Santiago] PHP Notice:  Undefined index: descripcion in /home/transpo8/public_html/datos.php on line 7
+[26-Feb-2024 22:35:14 America/Santiago] PHP Notice:  Undefined index: nombre in /home/transpo8/public_html/datos.php on line 4
+[26-Feb-2024 22:35:14 America/Santiago] PHP Notice:  Undefined index: telefono in /home/transpo8/public_html/datos.php on line 5
+[26-Feb-2024 22:35:14 America/Santiago] PHP Notice:  Undefined index: correo in /home/transpo8/public_html/datos.php on line 6
+[26-Feb-2024 22:35:14 America/Santiago] PHP Notice:  Undefined index: descripcion in /home/transpo8/public_html/datos.php on line 7

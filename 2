@@ -1,0 +1,232 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PRIMUS INTERLOGISTICS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Html5TemplatesDreamweaver.com">
+
+    <link href="scripts/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="scripts/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Icons -->
+    <link href="scripts/icons/general/stylesheets/general_foundicons.css" media="screen" rel="stylesheet" type="text/css" />  
+    <link href="scripts/icons/social/stylesheets/social_foundicons.css" media="screen" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 8]>
+        <link href="scripts/icons/general/stylesheets/general_foundicons_ie7.css" media="screen" rel="stylesheet" type="text/css" />
+        <link href="scripts/icons/social/stylesheets/social_foundicons_ie7.css" media="screen" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <link rel="stylesheet" href="scripts/fontawesome/css/font-awesome.min.css">
+    <!--[if IE 7]>
+        <link rel="stylesheet" href="scripts/fontawesome/css/font-awesome-ie7.min.css">
+    <![endif]-->
+
+
+
+    <link href="http://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" type="text/css">
+
+    <link href="styles/custom.css" rel="stylesheet" type="text/css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+        function send(tarjet){
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("suv-cont").innerHTML = this.responseText;
+                }
+            };
+            xhttp.open("POST", tarjet+".html", true);
+            xhttp.send();   
+        }
+    </script>
+    <script type="text/javascript" src="enviar.js"></script>
+</head>
+<body id="pageBody" onload="send('container')">
+
+<div id="divBoxed" class="container">
+
+    <div class="transparent-bg" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: -1;zoom: 1;"></div>
+
+    <div class="divPanel notop nobottom">
+            <div class="row-fluid">
+                <div class="span12">
+
+                    <div id="divLogo" class="pull-left">
+                        <img src="images/logo.png" width="200" height="80" style="inherit">
+                        <!--<a href="index.html" id="divSiteTitle">Primus InterLogistics</a><br />-->
+                        <a href="index.html" id="divTagLine">Logística Innovadora para cargas complejas</a>
+						<div class="btn-group">
+							<button class="btn btn-mini dropdown-toggle" data-toggle="dropdown" alt="spanish"><img src="images/flag/spain.png" alt="Spanish" /> <span class="caret"></span></button>
+							<ul class="dropdown-menu">
+								<li><a href="pt/index.html"><img src="images/flag/brazil.png" alt="portuguese" /> Portuguese</a></li>
+								<li><a href="en/index.html"><img src="images/flag/united-kingdom.png" alt="English" /> English</a></li>
+							</ul>
+						</div>
+                    </div>
+
+                    <div id="divMenuRight" class="pull-right">
+                    <div class="navbar">
+                        <button type="button" class="btn btn-navbar-highlight btn-large btn-primary" data-toggle="collapse" data-target=".nav-collapse">
+                        NAVEGACIÓN <span class="icon-chevron-down icon-white"></span>
+                        </button>
+                            <div class="nav-collapse collapse">
+                            <ul class="nav nav-pills ddmenu">
+                            <li><a href="index.html">Empresa</a></li>
+                            <li><a href="about.html">Nosotros</a></li>
+							<!--<li class="dropdown">
+                            <a href="page.html" class="dropdown-toggle">Page <b class="caret"></b></a>
+                            <ul class="dropdown-menu">                            
+                            <li><a href="full.html">Full Page</a></li>
+                            <li><a href="2-column.html">Two Column</a></li>
+                            <li><a href="3-column.html">Three Column</a></li>
+							<li><a href="../documentation/index.html">Documentation</a></li>
+							<li class="dropdown">
+                            <a href="#" class="dropdown-toggle">Dropdown Item &nbsp;&raquo;</a>
+                            <ul class="dropdown-menu sub-menu">
+                            <li><a href="#">Dropdown Item</a></li>
+                            <li><a href="#">Dropdown Item</a></li>
+                            <li><a href="#">Dropdown Item</a></li>
+                            </ul>
+                            </li>
+                            </ul>
+                            </li>-->
+						    <li><a href="services.html">Servicios</a></li>
+						    <li><a href="portfolio.html">Portafolio</a></li>
+					    	<li class="active"><a href="herramientas.html">Herramientas</a></li>
+                            <!--<li><a href="contact.php">Contacto</a></li>-->
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row-fluid">
+                <div class="span12">
+                    <div id="contentInnerSeparator"></div>
+                </div>
+            </div>
+    </div>
+<div class="cont-total" style="height:400px">
+        <div class="contentArea" style="width:30%;float:left">
+
+<div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_widgetised_column wpb_content_element">
+		<div class="wpb_wrapper">
+			
+			<p class="ferramentas-menu" style="margin-left:30px;background-color:#e05f03;padding-left:20px;border-radius:5px;margin-right: 30px;">
+                <a onclick="send('container')" class="active" style="color:white;cursor: pointer">CONTAINERS MARÍTIMOS</a><br>
+                <a onclick="send('contenedores')" style="color:white;cursor: pointer">CONTENEDORES DE TRANSPORTE AÉREO</a><br>
+                <a onclick="send('puertos')" style="color:white;cursor: pointer">PUERTOS POR EL MUNDO</a><br>
+                <!--<a onclick="send('peso')">CALCULADORA DE PESO VOLUMÉTRICO</a><br>-->
+            </p>
+            <p class="ferramentas-externo" style="margin-left:30px;background-color:#e05f03;padding-left:20px;border-radius:5px;margin-right: 30px;">
+                <a href="http://www.metric-conversions.org/" target="_blank" rel="noopener" class="" style="color:white">CONVERSIONES METRICAS</a><br>
+                <a href="http://24timezones.com/hora_certa.php" target="_blank" rel="noopener" style="color:white">ZONA HORARIA</a><br>
+                <a href="https://www.world-airport-codes.com/" target="_blank" rel="noopener" style="color:white">CODIGOS AEROPORTUARIOS</a><br>
+                <a href="http://www.xe.com/currencyconverter/" target="_blank" rel="noopener" style="color:white">CONVERTIDOR DE MONEDA</a><br>
+                <a href="https://pt.flightaware.com/" target="_blank" rel="noopener" style="color:white">TRACKER DE VUELO EN LÍNEA</a><br>
+                <!--<a href="http://www.waiver.com.br/wp-content/uploads/2017/10/WAIVER-Dimensões-Máximas-para-Embarques-Aéreos-e-Marítimos-ou-FREIGHT-GUIDE-logo.pdf" target="_blank" rel="noopener">GUÍAS DE ESPECIFICACÍON DE EMBARQUE</a>-->
+            </p>
+
+    			<div class="textwidget"><p></p>
+</div>
+		</div>
+	</div>
+</div></div></div>
+
+    </div>
+    
+    <div id="suv-cont"  style="width:70%;float:right;overflow:auto;height: 400px;">
+    
+</div>
+</div>
+
+    <div id="footerOuterSeparator"></div>
+
+       <div id="divFooter" class="footerArea">
+
+        <div class="divPanel">
+
+            <div class="row-fluid">
+			
+				<!--<div class="span3" id="footerArea1">
+					
+                </div>-->
+				
+                <div class="span3" id="footerArea2">
+                
+                    <h3>Nuestra Empresa</h3>
+
+                    <p>Primus Interlogisitics es una empresa con prestación de servicios especializados en Transporte Internacional de Carga y Logística asociada</p>
+                    
+                    <p> 
+					<span class="field"><h3>Dirección</h3></span>
+                        <i class="general foundicon-home icon" style="margin-bottom:50px"></i> Barcelona 2064<br />
+                        Oficina 101, Providencia, Santiago<br />
+                        Chile
+                    </p>
+
+                </div>
+                       <div class="span3" id="footerArea3" style="float:right">
+                    
+					<h5>Formulario de Contacto</h5>
+                    <p>                                           
+                    <form action="datos.php" method="POST" name ="formulario" id="formulario">
+                        <label for="nombre">Nombre y Apellido</label> 
+                        <input type="text" placeholder="Escribe tú Nombre y Apellido" name="nombre" id="nombre"> <br />
+                        <label for="telefono">N° de Teléfono</label>
+                        <input type="text" placeholder="Escribe tú Teléfono" name="telefono" id="telefono"> <br />
+                        <label for="correo">Correo Electrónico</label>
+                        <input type="email" placeholder="Escribe tu Correo Electrónico" name="correo" id="correo"> <br /> 
+                        <label for="descripcion">Conversemos</label>
+                    <textarea placeholder="Comentanos que necesitas y nos contactaremos a la Brevedad" name="descripcion" id="descripcion"></textarea> <br />
+                    <div class="g-recaptcha" 
+                     data-sitekey="6LcyJ3QhAAAAAIRL5BCMO8Vm9A9lvdNRzAsn4tJe" 
+                     ></div>
+                        <input type="button" id="boton" name="boton" value="Enviar Formulario" onclick="enviarFormulario()">
+                        
+                    </form>
+                    </p>
+               </div>
+            </div>
+
+            <br /><br />
+            <div class="row-fluid">
+                <div class="span12">
+                    <p class="copyright">
+                        Copyright © 2022 Primus Interlogistics. Todos los derechos reservados.
+                    </p>
+
+                    <p class="copyright">
+                        PrimusLog® 2022
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="scripts/jquery.min.js" type="text/javascript"></script> 
+<script src="scripts/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="scripts/default.js" type="text/javascript"></script>
+
+
+
+
+
+</body>
+</html>

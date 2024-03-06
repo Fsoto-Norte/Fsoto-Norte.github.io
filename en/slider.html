@@ -1,0 +1,110 @@
+<script>
+    var i = 2;
+    
+    setInterval(slider,10000);
+
+    function slider(){
+        if(i == 9){
+            i = 1;
+        }
+        document.getElementById('slide-'+i).checked = true;
+        i++;
+    }
+    
+    function cambiar(index){
+        i = index;
+    }
+</script>
+<link rel="stylesheet" href="styles/slider.css">
+<div class="slide">
+    <div class="slide-inner">
+        <input class="slide-open" type="radio" id="slide-1" 
+               name="slide" aria-hidden="true" hidden="" checked="checked">
+        <div class="slide-item divppal" >
+            <video autoplay loop muted>
+                <source src="images/sliderprincipal.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video> 
+        </div>
+        <input class="slide-open" type="radio" id="slide-2" 
+               name="slide" aria-hidden="true" hidden="">
+        <div class="slide-item divppal slideresponsive2">
+        </div>
+        <input class="slide-open" type="radio" id="slide-3" 
+               name="slide" aria-hidden="true" hidden="">
+        <div  class="slide-item divppal" >
+            <video autoplay loop muted>
+                <source src="images/sliderprincipal2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video> 
+        </div>
+        <input class="slide-open" type="radio" id="slide-4" 
+               name="slide" aria-hidden="true" hidden="">
+        <div class="slide-item divppal slideresponsive4">
+        </div>
+         <input class="slide-open" type="radio" id="slide-5" 
+               name="slide" aria-hidden="true" hidden="" >
+        <div class="slide-item divppal" >
+            <video autoplay loop muted>
+                <source src="images/sliderprincipal3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video> 
+        </div>
+        <input class="slide-open" type="radio" id="slide-6" 
+               name="slide" aria-hidden="true" hidden="">
+        <div class="slide-item divppal slideresponsive6">
+        </div>
+         <input class="slide-open" type="radio" id="slide-7" 
+               name="slide" aria-hidden="true" hidden="" >
+        <div class="slide-item divppal slideresponsive7">
+        </div>
+        <input class="slide-open" type="radio" id="slide-8" 
+               name="slide" aria-hidden="true" hidden="">
+        <div class="slide-item divppal slideresponsive8"><div class="camera_caption fadeFromBottom cap1">INLAND FREIGHT...</div>
+        </div>
+
+        
+        <label for="slide-8" class="slide-control prev control-1" onclick="cambiar(9)"><</label>
+        <label for="slide-2" class="slide-control next control-1" onclick="cambiar(3)">></label>
+        <label for="slide-1" class="slide-control prev control-2"onclick="cambiar(2)"><</label>
+        <label for="slide-3" class="slide-control next control-2"onclick="cambiar(4)">></label>
+        <label for="slide-2" class="slide-control prev control-3"onclick="cambiar(3)"><</label>
+        <label for="slide-4" class="slide-control next control-3"onclick="cambiar(5)">></label>
+        <label for="slide-3" class="slide-control prev control-4"onclick="cambiar(4)"><</label>
+        <label for="slide-5" class="slide-control next control-4"onclick="cambiar(6)">></label>
+        <label for="slide-4" class="slide-control prev control-5"onclick="cambiar(5)"><</label>
+        <label for="slide-6" class="slide-control next control-5"onclick="cambiar(7)">></label>
+        <label for="slide-5" class="slide-control prev control-6"onclick="cambiar(6)"><</label>
+        <label for="slide-7" class="slide-control next control-6"onclick="cambiar(8)">></label>
+        <label for="slide-6" class="slide-control prev control-7"onclick="cambiar(7)"><</label>
+        <label for="slide-8" class="slide-control next control-7"onclick="cambiar(9)">></label>
+        <label for="slide-7" class="slide-control prev control-8"onclick="cambiar(8)"><</label>
+        <label for="slide-1" class="slide-control next control-8"onclick="cambiar(1)">></label>
+        <ol class="slide-indicador">
+            <li>
+                <label for="slide-1" class="slide-circulo">o</label>
+            </li>
+            <li>
+                <label for="slide-2" class="slide-circulo">o</label>
+            </li>
+            <li>
+                <label for="slide-3" class="slide-circulo">o</label>
+            </li>
+              <li>
+                <label for="slide-4" class="slide-circulo">o</label>
+            </li>
+               <li>
+                <label for="slide-5" class="slide-circulo">o</label>
+            </li>
+               <li>
+                <label for="slide-6" class="slide-circulo">o</label>
+            </li>
+             <li>
+                <label for="slide-7" class="slide-circulo">o</label>
+            </li>
+               <li>
+                <label for="slide-8" class="slide-circulo">o</label>
+            </li>
+        </ol>
+    </div>
+</div>
